@@ -25,12 +25,16 @@ const APIkey = 'ec0603119ed94f2a6898711c1e4ed654 '
 searchBtn.addEventListener('click', () => {
     if(cityInput.value.trim() != ''){
         updateWeatherInfo(cityInput.value.trim())
+        cityInput.value = '';
+        cityInput.blur();
     }
 })
 
 cityInput.addEventListener('keyup', (e) => {
     if(cityInput.value.trim() != '' && e.key=='Enter'){
         updateWeatherInfo(cityInput.value.trim())
+        cityInput.value = '';
+        cityInput.blur();
     }
 })
 
