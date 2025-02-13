@@ -48,15 +48,9 @@ This project uses the OpenWeatherMap API. To use it, follow these steps:
 1. Sign up at [OpenWeatherMap](https://openweathermap.org/) and obtain an API key.
 2. Add the API key in the JavaScript file where required.
 
-## Screenshots
-*(Optional: Add images showcasing the app interface here.)*
-
 ## Contributing
 Contributions are welcome! If you find any bugs or want to add features, feel free to fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License.
-
----
+📌Demo Link: [Try Here!!](https://baatrox-s4ma.github.io/Weather-App/)
 
 ⭐ **If you like this project, don't forget to star the repository!** ⭐
