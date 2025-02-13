@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/weather-favicone" href="images/weather-favicone.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+</head>
+<body>
+    <main class="container">
+        <!-- NAV BAR SECTION -->
+        <header class="search-section">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" class="input">
+                <button class="searchbtn">
+                    <span class="material-symbols-rounded">search</span>
+                </button>
+            </div>
+            <button class="locationbtn">
+                <span class="material-symbols-rounded">my_location</span>
+            </button>
+        </header>
+        <!-- SEARCH CITY SECTION -->
+        <section class="container-search">
+            <img src="images//msg/search-city.png" alt="Search City" class="searchimg">
+            <h3 class="searchmsg">Search City</h3>
+            <p class="searchp">Check the latest weather updates and plan your day with ease!</p>
+        </section>
+        <!-- NOT FOUND SECTION -->
+        <section class="container-not-found">
+            <img src="images//msg/not-found.png" alt="Search City" class="not-found-img">
+            <h3 class="not-found-msg">City Not Found!</h3>
+            <p class="not-found-p">We're unable to retrieve the weather details for the city you entered.</p>
+        </section>
+        <!-- WEATHER INFO SECTION -->
+        <section class="container-result">
+            <section class="weather-info">
+                <div class="location-date-container">
+                    <div class="location">
+                        <span class="material-symbols-rounded">location_on</span>
+                        <h4 class="location-name">Manchester, GB</h4>
+                    </div>
+                    <h5 class="current-date-text">Thu, 08 Aug</h5>
+                </div>
+                <div class="weather-summary-container">
+                    <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="weather-img">
+                    <div class="weather-summary-info">
+                        <h1 class="temp-txt">4°C</h1>
+                        <h3 class="weather-description">Overcast clouds</h3>
+                    </div>
+                </div>
+
+                <div class="weather-condition-container">
+                    <div class="sunset-sunrise-container">
+                        <div class="sunrise">
+                            <img src="images/weather-info/sunrise.svg" alt="sunrise_img" class="sunrise-img">
+                            <div class="sunrise-info">
+                                <h4 class="sunrise-txt">Sunrise</h4>
+                                <h3 class="sunrise-value">08:20</h3>
+                            </div>
+                        </div>
+                        <div class="sunset">
+                            <div class="sunset-info">
+                                <h4 class="sunset-txt">Sunset</h4>
+                                <h3 class="sunset-value">19:30</h3>
+                            </div>
+                            <img src="images/weather-info/sunset.svg" alt="sunrise_img" class="sunset-img">
+                        </div>
+                    </div>
+                    <div class="feel-wind-container">
+                        <div class="feels-like">
+                            <img src="images/weather-info/Feels like.svg" alt="feels-like_img" class="feels-like-img">
+                            <div class="feels-like-info">
+                                <h4 class="feels-like-txt">Feels Like</h4>
+                                <h3 class="feels-like-value">4°C</h3>
+                            </div>
+                        </div>
+                        <div class="wind-speed">
+                            <div class="wind-speed-info">
+                                <h4 class="wind-speed-txt">Wind Speed</h4>
+                                <h3 class="wind-speed-value">4.12M/s</h3>
+                            </div>
+                            <img src="images/weather-info/Wind.svg" alt="wind-speed_img" class="wind-speed-img">
+                        </div>
+                    </div>
+                    <div class="pressure-humidity-container">
+                        <div class="pressure">
+                            <img src="images/weather-info/pressure.svg" alt="pressure_img" class="pressure-img">
+                            <div class="pressure-info">
+                                <h4 class="pressure-txt">Pressure</h4>
+                                <h3 class="pressure-value">1019hPa</h3>
+                            </div>
+                        </div>
+                        <div class="humidity">
+                            <div class="humidity-info">
+                                <h4 class="humidity-txt">Humidity</h4>
+                                <h3 class="humidity-value">74%</h3>
+                            </div>
+                            <img src="images/weather-info/Humidity.svg" alt="humidity_img" class="humidity-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="forcast-items-container">
+                    <div class="daily-forcast">
+                        <h4 class="daily-forcast-title">Next 4 Days</h4>
+                        <div class="daily-forcast-cards">
+                            <div class="daily-forcast-card">
+                                <h4 class="daily-forcast-date">Aug 10</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="daily-forcast-weather-img">
+                                <h3 class="daily-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="daily-forcast-card">
+                                <h4 class="daily-forcast-date">Aug 10</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="daily-forcast-weather-img">
+                                <h3 class="daily-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="daily-forcast-card">
+                                <h4 class="daily-forcast-date">Aug 10</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="daily-forcast-weather-img">
+                                <h3 class="daily-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="daily-forcast-card">
+                                <h4 class="daily-forcast-date">Aug 10</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="daily-forcast-weather-img">
+                                <h3 class="daily-forcast-temp-value">27°C</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hourly-forcast">
+                        <h4 class="hourly-forcast-title">Upcoming Hours</h4>
+                        <div class="hourly-forcast-cards">
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                            <div class="hourly-forcast-card">
+                                <h4 class="hourly-forcast-time">18:00</h4>
+                                <img src="images/weather-condition/Thunderstorm.svg" alt="weather-img" class="hourly-forcast-weather-img">
+                                <h3 class="hourly-forcast-temp-value">27°C</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
